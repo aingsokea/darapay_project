@@ -171,5 +171,6 @@ public class Account extends TransactionEntityImpl<String> {
             joinColumns = {@JoinColumn(name = "accountid")},
             inverseJoinColumns = {@JoinColumn(name = "roleid")}
     )
+    
     private Set<Role> roles;
 }
